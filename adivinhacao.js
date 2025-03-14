@@ -7,7 +7,7 @@ const r1 = readline.createInterface({
     output: process.stdout,
 });
 
-// Gera um número aleatório entre 1 e 10
+// Gera um número aleatório entre 1 e 10, possivelmente.
 const numeroSecreto = Math.floor(Math.random() * 10) + 1;
 
 // Exibe uma mensagem para o usuário tentar adivinhar
